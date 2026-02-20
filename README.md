@@ -26,3 +26,12 @@ The agent starts with zero knowledge of the game (random movement) and gradually
 1. **Train:** Let the AI run at hyper-speed by commenting out the frame rate limit.
 2. **Play:** Take control of the blue paddle using the **Arrow Keys** and see if you can beat your own creation!
 3. **Save/Load:** The agent's progress is automatically saved to `pong_ai_model.pth`.
+![Learning Progress](learning_chart.png).
+
+"How to use"
+## 🛠️ Installation
+To run this project, clone the repository and install the dependencies:
+
+```bash
+pip install -r requirements.txt
+python test_display.py
